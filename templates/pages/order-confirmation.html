@@ -29,14 +29,18 @@
 
 <!--{{{ checkout.order_confirmation_content }}}-->
 
-<!--Below script is only for use when developing locally-->
+<!--Below div & 2 scripts are only for use when developing locally-->
+
+<div id="checkout-app"></div>
+
+<script src="http://127.0.0.1:8080/loader-dev.js"></script>
 
 <script>
     checkoutLoader.loadFiles({ publicPath: 'http://127.0.0.1:8080/' })
         .then(({ renderOrderConfirmation }) => {
             renderOrderConfirmation({
                 orderId: '{{ checkout.order.id }}',
-                containerId: 'app',
+                containerId: 'checkout-app',
             });
         });
 </script>
