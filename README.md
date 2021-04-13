@@ -3,6 +3,31 @@
 
 Stencil's Cornerstone theme is the building block for BigCommerce theme developers to get started quickly developing premium quality themes on the BigCommerce platform.
 
+## Quickstart
+First, create a `.stencil` file at the **root** level which contains the BC token, port number, and store URL, following the example below.
+
+```
+{
+  "normalStoreUrl": "https://harveynichols-sb.mybigcommerce.com/",
+  "accessToken": "yourbcaccesstoken",
+  "port": "3500",
+  "customLayouts": {
+    "brand": {},
+    "category": {},
+    "page": {},
+    "product": {}
+  }
+}
+```
+
+Then, `npm install`.
+
+Then, `npm install -g @bigcommerce/stencil-cli`.
+
+Then, `stencil init` and follow the interactive CLI to initialise your stencil config.
+
+Then, `stencil start`.
+
 ### Stencil Utils
 [Stencil-utils](https://github.com/bigcommerce/stencil-utils) is our supporting library for our events and remote interactions.
 
