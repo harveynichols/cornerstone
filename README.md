@@ -56,13 +56,13 @@ COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build
 Finally, run the docker image. Ensure you expose the port the container uses (refer to your `.stencil` file) and match the image name with what you used when building.
 
 ```
-docker-compose up
+docker compose up
 ```
 
 Note, you can add the `-d` flag to run the image as a daemon. If you run using `-d`, run the following to stop the instance:
 
 ```
-docker-compose stop
+docker compose stop
 ```
 
 Also note, you can add the `--remove-orphan` flag to clean up previous docker instances.
