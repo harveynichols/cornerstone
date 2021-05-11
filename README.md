@@ -47,7 +47,7 @@ Next, build the docker image from the root of this repo.
 docker-compose build
 ```
 
-If you would prefer to use the Docker BuildKit, then run the below instead:
+If you prefer to use the Docker BuildKit, then run the below instead:
 
 ```
 COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build
