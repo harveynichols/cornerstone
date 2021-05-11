@@ -35,6 +35,40 @@ Then, `stencil init` and follow the interactive CLI to initialise your stencil c
 
 Then, `stencil start`.
 
+### Docker
+
+Alternatively, Docker can be used to run this theme (instead of running `stencil start`).
+
+Note that, if you change the port number in `stencil.conf.js`, you must open both the `Dockerfile` and `docker-compose.yml` and update the port ARG to match.
+
+Next, build the docker image from the root of this repo.
+
+```
+docker-compose build
+```
+
+If you would prefer to use the Docker BuildKit, then run the below instead:
+
+```
+COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build
+```
+
+Finally, run the docker image. Ensure you expose the port the container uses (refer to your `.stencil` file) and match the image name with what you used when building.
+
+```
+docker-compose up
+```
+
+Note, you can add the `-d` flag to run the image as a daemon. If you run using `-d`, run the following to stop the instance:
+
+```
+docker-compose stop
+```
+
+Also note, you can add the `--remove-orphan` flag to clean up previous docker instances.
+
+Ensure your  `checkout-js` instance is running; you should be able to see the storefront on localhost: congratulations!
+
 ### Stencil Utils
 [Stencil-utils](https://github.com/bigcommerce/stencil-utils) is our supporting library for our events and remote interactions.
 
