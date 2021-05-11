@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.0-experimental
-FROM    node:12.18.4-alpine3.12
+FROM    node:12.22.1-alpine3.12
 ENV     NODE_ENV=development
 EXPOSE  3500
 
