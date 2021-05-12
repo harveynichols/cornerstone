@@ -33,7 +33,12 @@ Then, `npm install -g @bigcommerce/stencil-cli`.
 
 Then, `stencil init` and follow the interactive CLI to initialise your stencil config.
 
-Then, `stencil start`.
+If developing locally, you must also comment out the handlebar content line and uncomment the `<div>` and scripts in the following files:
+
+1. `templates/pages/order-confirmation.html`
+2. `templates/pages/checkout.html`
+
+Finally, run `stencil start`.
 
 ### Docker
 
