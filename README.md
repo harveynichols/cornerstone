@@ -1,7 +1,7 @@
-# Cornerstone
+# HNCornerstone
 ![tests](https://github.com/bigcommerce/cornerstone/workflows/Theme%20Bundling%20Test/badge.svg?branch=master)
 
-Stencil's Cornerstone theme is the building block for BigCommerce theme developers to get started quickly developing premium quality themes on the BigCommerce platform.
+This HNCornerstone theme is based upon the BigCommerce Cornerstone theme and is currently used to apply a HN style to Checkout-JS.
 
 ## Quickstart
 First, create a `config.stencil.json` file at the **root** level which contains the port number and store URL, following the example below.
