@@ -167,6 +167,20 @@
     "uk": "Родина шрифтів для заголовків",
     "zh": "头部字体"
   },
+  "i18n.FuturaBook": {
+    "default": "Futura Book",
+    "fr": "Futura Book",
+    "it": "Futura Book",
+    "uk": "Futura Book",
+    "zh": "Futura Book"
+  },
+  "i18n.FuturaLight": {
+    "default": "Futura Light",
+    "fr": "Futura Light",
+    "it": "Futura Light",
+    "uk": "Futura Light",
+    "zh": "Futura Light"
+  },
   "i18n.MontserratLight": {
     "default": "Montserrat Light",
     "fr": "Montserrat Light",

@@ -51,6 +51,16 @@
         "id": "body-font",
         "options": [
           {
+            "group": "i18n.FuturaBook",
+            "label": "i18n.FuturaBook",
+            "value": "FB"
+          },
+          {
+            "group": "i18n.FuturaLight",
+            "label": "i18n.FuturaLight",
+            "value": "FL"
+          },
+          {
             "group": "i18n.Karla",
             "label": "i18n.Karla",
             "value": "Google_Karla_400"
@@ -138,6 +148,16 @@
         "label": "i18n.HeadingFontFamily",
         "id": "headings-font",
         "options": [
+          {
+            "group": "i18n.FuturaBook",
+            "label": "i18n.FuturaBook",
+            "value": "FB"
+          },
+          {
+            "group": "i18n.FuturaLight",
+            "label": "i18n.FuturaLight",
+            "value": "FL"
+          },
           {
             "group": "i18n.Montserrat",
             "label": "i18n.MontserratLight",
